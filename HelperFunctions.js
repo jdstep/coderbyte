@@ -22,7 +22,6 @@ function isUpper(letter){
   else{
     return false;
   }
-
 }
 
 // returns true if the given letter is lower case
