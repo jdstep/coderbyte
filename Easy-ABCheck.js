@@ -1,6 +1,5 @@
 
-// returns true if 'a' and 'b' are separated by exactly 3 spaces
-// in the given string
+// returns true if 'a' and 'b' are separated by exactly 3 spaces in a given string
 function ABCheck(str) { 
 var tmpStr;
 tmpStr = str.split('');
