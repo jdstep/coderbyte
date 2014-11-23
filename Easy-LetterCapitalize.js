@@ -9,7 +9,6 @@
 // then call str.toUpperCase() on it. Then break the interior for loop and have the
 // outer for loop move to the next word.
 function LetterCapitalize(str) { 
-  
   var tmpStr;
   tmpStr = str.split('');
   
@@ -20,8 +19,7 @@ function LetterCapitalize(str) {
         }
   }
   tmpStr = tmpStr.join('');
-  return tmpStr; 
-         
+  return tmpStr;
 }
 
 function IsSpace(char){
