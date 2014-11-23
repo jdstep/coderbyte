@@ -1,6 +1,6 @@
 // returns true if each alphabetical character in a string
 // has a '+' immediately before and immdiately after it
-function SimpleSymbols(str) { 
+function SimpleSymbols(str){ 
 var checkSymbol = '+';
 	for (var i=0; i<str.length;i++){
 		if (IsAlpha(str[i])){
