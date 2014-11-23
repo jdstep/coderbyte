@@ -12,8 +12,7 @@ function TimeConvert(num) {
   
   time = hours + ":" + minutes;
 
-  return time; 
-         
+  return time;
 }
 
 function FindMinutes(time) {
