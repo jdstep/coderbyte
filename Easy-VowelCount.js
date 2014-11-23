@@ -1,7 +1,6 @@
 // returns the number of vowels in a given string
 function VowelCount(str) { 
 	var numVowels;
-
 	numVowels = 0;
 
 	for (var i=0;i<str.length;i++){
@@ -9,8 +8,7 @@ function VowelCount(str) {
 			numVowels += 1;
 		}
 	}
-  return numVowels; 
-         
+  return numVowels;
 }
 
 // returns true if the letter is a vowel
