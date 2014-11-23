@@ -1,4 +1,3 @@
-
 // returns true if the 2nd argument is greater than the 1st argument
 // returns false if the 1st argument is greater than the 2nd argument
 // returns the string "-1" if the two arguments are equal
