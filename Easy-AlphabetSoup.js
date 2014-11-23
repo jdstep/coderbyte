@@ -5,6 +5,5 @@ function AlphabetSoup(str) {
   tmpStr = str.split('');
   tmpStr = tmpStr.sort();
   tmpStr = tmpStr.join('');
-  return tmpStr; 
-         
+  return tmpStr;          
 }
