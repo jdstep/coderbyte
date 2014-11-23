@@ -2,8 +2,8 @@
 // returns true if 'a' and 'b' are separated by exactly 3 spaces
 // in the given string
 function ABCheck(str) { 
-
-var tmpStr = str.split('');
+var tmpStr;
+tmpStr = str.split('');
   for (var i=0;i<str.length;i++)
   {
   	if (str[i] === 'a' &&
@@ -11,6 +11,5 @@ var tmpStr = str.split('');
   		return true;
   	}
   }
-    return false; 
-         
+    return false;     
 }
