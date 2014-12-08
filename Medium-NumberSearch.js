@@ -25,7 +25,6 @@ function NumberSearch(str) {
   }
   
   return Math.round(sum / countLetters);
-         
 }
    
 function isAlpha(char){
